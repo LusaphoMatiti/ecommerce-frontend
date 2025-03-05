@@ -5,7 +5,7 @@ const api = axios.create({
   baseURL:
     typeof window !== "undefined" &&
     window.location.origin.includes("localhost")
-      ? "http://localhost:5001" // Use local backend for development
+      ? "http://localhost:5000" // Use local backend for development
       : "https://ecommerce-backend-2-xmb6.onrender.com", // Use Render-deployed backend
 });
 
