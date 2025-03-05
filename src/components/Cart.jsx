@@ -32,12 +32,12 @@ const Cart = () => {
     return (
       <section className="mx-auto h-screen flex flex-col items-center justify-center">
         <p className="text-center text-gray-600 mb-4">Your cart 🛒 is empty </p>
-        <a
-          href="/category"
+        <Link
+          to="/category"
           className="bg-[#32CD32] text-white py-2 px-6 rounded hover:bg-[#2E7D32] transition duration-300 cursor-pointer"
         >
           Shop now
-        </a>
+        </Link>
       </section>
     );
   }
