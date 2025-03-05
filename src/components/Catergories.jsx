@@ -12,7 +12,7 @@ const Catergories = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
           {/* Seeds */}
           <Link
-            href="/seeds"
+            to="/seeds"
             className="bg-white shadow-md p-6 rounded-lg cursor-pointer hover:shadow-2xl transition duration-300"
           >
             <img
@@ -28,7 +28,7 @@ const Catergories = () => {
           {/* Plants */}
           <Link
             className="bg-white shadow-md p-6 rounded-lg cursor-pointer hover:shadow-2xl transition duration-300"
-            href="/plants"
+            to="/plants"
           >
             <img
               src="plants_icon.png"
@@ -43,7 +43,7 @@ const Catergories = () => {
           {/* Tools */}
           <Link
             className="bg-white shadow-md p-6 rounded-lg cursor-pointer hover:shadow-2xl transition duration-300"
-            href="/tools"
+            to="/tools"
           >
             <img
               src="tools-icon.png"
@@ -55,7 +55,7 @@ const Catergories = () => {
 
           {/* Resources */}
           <Link
-            href="/resources"
+            to="/resources"
             className="bg-white shadow-md p-6 rounded-lg cursor-pointer hover:shadow-2xl transition duration-300"
           >
             <img
