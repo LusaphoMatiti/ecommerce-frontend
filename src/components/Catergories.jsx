@@ -11,7 +11,7 @@ const Catergories = () => {
         {/* Grid Layout */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
           {/* Seeds */}
-          <a
+          <Link
             href="/seeds"
             className="bg-white shadow-md p-6 rounded-lg cursor-pointer hover:shadow-2xl transition duration-300"
           >
@@ -23,10 +23,10 @@ const Catergories = () => {
             <h4 className="text-lg font-semibold text-[#2E7D32]">
               Quality Seeds
             </h4>
-          </a>
+          </Link>
 
           {/* Plants */}
-          <a
+          <Link
             className="bg-white shadow-md p-6 rounded-lg cursor-pointer hover:shadow-2xl transition duration-300"
             href="/plants"
           >
@@ -38,10 +38,10 @@ const Catergories = () => {
             <h4 className="text-lg font-semibold text-[#2E7D32]">
               Small Plants
             </h4>
-          </a>
+          </Link>
 
           {/* Tools */}
-          <a
+          <Link
             className="bg-white shadow-md p-6 rounded-lg cursor-pointer hover:shadow-2xl transition duration-300"
             href="/tools"
           >
@@ -51,10 +51,10 @@ const Catergories = () => {
               className="w-16 h-16 mx-auto mb-4"
             />
             <h4 className="text-lg font-semibold text-[#2E7D32]">Farm Tools</h4>
-          </a>
+          </Link>
 
           {/* Resources */}
-          <a
+          <Link
             href="/resources"
             className="bg-white shadow-md p-6 rounded-lg cursor-pointer hover:shadow-2xl transition duration-300"
           >
@@ -64,7 +64,7 @@ const Catergories = () => {
               className="w-16 h-16 mx-auto mb-4"
             />
             <h4 className="text-lg font-semibold text-[#2E7D32]">Resources</h4>
-          </a>
+          </Link>
         </div>
       </div>
     </section>
